@@ -528,7 +528,7 @@
     "jlpt": "N3",
     "id": 59,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "彼女は忙しいはずなのに、いつも丁寧に返信してくれる。",
@@ -537,7 +537,7 @@
     "jlpt": "N2",
     "id": 60,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "日本語を勉強し始めて三か月です。",
@@ -545,7 +545,7 @@
     "english": "It has been three months since I started studying Japanese.",
     "jlpt": "N5",
     "id": 61,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
