@@ -28,15 +28,15 @@ export default function TopBar() {
 
   return (
     <nav className='fixed top-0 right-0 left-0 z-50 border-b border-(--border-color) bg-(--background-color)/95 backdrop-blur-sm'>
-      <div className='mx-auto flex h-14 max-w-7xl items-center justify-between px-4 md:px-6'>
+      <div className='mx-auto flex h-20 max-w-7xl items-center justify-between px-4 md:px-6'>
         {/* Logo */}
         <Link
           href='/'
           onClick={() => playClick()}
-          className='flex items-center gap-2 text-lg font-bold text-(--main-color) transition-opacity hover:opacity-80'
+          className='flex items-center gap-3 text-lg font-bold text-(--main-color) transition-opacity hover:opacity-80'
         >
-          <span className='text-xl'>KanaDojo</span>
-          <span className='text-xs text-(--secondary-color)'>かな道場</span>
+          <span className='text-3xl'>KanaDojo</span>
+          <span className='text-base text-(--secondary-color)'>かな道場</span>
         </Link>
 
         {/* Navigation Links */}
@@ -55,31 +55,6 @@ export default function TopBar() {
               <span>{item.name}</span>
             </Link>
           ))}
-        </div>
-
-        {/* Action Buttons */}
-        <div className='flex items-center gap-2'>
-          {/* Ko-fi Button - Commented out for now */}
-          {/* <a
-            href='https://ko-fi.com/kanadojo'
-            target='_blank'
-            rel='noopener noreferrer'
-            onClick={() => playClick()}
-            className='rounded-lg border border-(--border-color) bg-(--background-color) px-3 py-1.5 text-sm font-medium text-(--main-color) transition-colors hover:bg-(--border-color)'
-          >
-            Ko-fi
-          </a> */}
-
-          {/* Patreon Button - Commented out for now */}
-          {/* <a
-            href='https://patreon.com/kanadojo'
-            target='_blank'
-            rel='noopener noreferrer'
-            onClick={() => playClick()}
-            className='rounded-lg bg-(--main-color) px-3 py-1.5 text-sm font-medium text-white transition-opacity hover:opacity-90'
-          >
-            Patreon
-          </a> */}
         </div>
       </div>
     </nav>
