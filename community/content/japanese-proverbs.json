@@ -312,9 +312,15 @@
         "meaning": "Chance connections can be surprisingly good"
     },
     {
-  "japanese": "一寸先は闇",
-  "romaji": "Issun saki wa yami",
-  "english": "An inch ahead is darkness",
-  "meaning": "The future is uncertain"
-}
+      "japanese": "一寸先は闇",
+      "romaji": "Issun saki wa yami",
+      "english": "An inch ahead is darkness",
+      "meaning": "The future is uncertain"
+    },
+    {
+      "japanese": "案ずるより産むが易し",
+      "romaji": "Anzuru yori umu ga yasushi",
+      "english": "Giving birth is easier than worrying",
+      "meaning": "Doing is often easier than worrying"
+    },
 ]
